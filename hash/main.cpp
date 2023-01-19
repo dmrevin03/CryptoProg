@@ -21,7 +21,6 @@ int main() {
     StringSource(gsm, true, new Redirector(encoder));
     cout << result << "\n\n";
     
-    // Блок для проверки работоспособности кода выше:
     HexEncoder encoder1(new StringSink(result1));
     string gsm1, msg1 = "My name is Dmitriy";
     cout << "Text: " << msg1 << endl;
